@@ -9,7 +9,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/Houseplant-ecommerce">
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </Provider>
